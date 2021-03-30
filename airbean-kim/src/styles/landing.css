@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #38846D;
+    width: 375px;
+}
+
+.wrapper a {
+    text-decoration: none;
+    color: black;
+}
+
+
+h1 {
+    font-family: 'Rufina', serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
+
+.hero-text {
+    width: 10rem;
+}
