@@ -4,7 +4,11 @@ const Navbar = () => {
     return ( 
 
         <nav className="navbar">
-            <h1>Navigation</h1>
+
+                <div className="menu-cart">
+            <i className="fas fa-bars"></i>
+            <i className="fas fa-shopping-cart"></i>
+            </div>
             <div className="links">
             <Link to="/">Home</Link>
             <Link to="/menu">Meny</Link>
@@ -12,6 +16,8 @@ const Navbar = () => {
             <Link to="/profile">Min Profil</Link>
             <Link to="/status">Orderstatus</Link>
             </div>
+
+
         </nav>
      );
 }

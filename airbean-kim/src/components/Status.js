@@ -1,11 +1,17 @@
+
 const Status = () => {
-    return ( 
-        <div>
-            <h1>STATUS</h1>
-            <p>Ordernummer #12DV23F</p>
-            <p>Din beställning är på väg!</p>
-        </div>
-     );
+  return (
+    <div className="status-wrap">
+      <p>Ordernummer #12DV23F</p>
+      <div className="status-wrap-img">
+        <img src="../svg/drone.png" alt="drone"></img>
+        <img src="../svg/coffe.png" alt="coffe"></img>
+      </div>
+      <h1>Din beställning är påväg!</h1>
+      <h2>13 minuter</h2>
+      <button>Ok, cool!</button>
+    </div>
+  );
 }
 
-export default Status; 
+export default Status;

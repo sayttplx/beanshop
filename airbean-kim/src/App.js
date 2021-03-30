@@ -7,6 +7,10 @@ import About from './components/About'
 import Profile from './components/Profile';
 import Status from './components/Status';
 import Cart from './components/Cart'
+import "./styles/status.css"
+import './styles/about.css'
+import './styles/navbar.css'
+import './styles/landing.css'
 
 function App() {
   return (

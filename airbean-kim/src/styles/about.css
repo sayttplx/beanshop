@@ -1,0 +1,64 @@
+.header {
+    height: 150px;
+    background: url('../images/graphics-header.svg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 2rem;
+  }
+.footer {
+    height: 72px;
+    background: url('../images/graphics-footer.svg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 113px;
+  }
+.about {
+  background-color: #f3e4e1;
+}
+.about-wrapper {
+    width: 311px;
+    height: 100vh;
+}
+.about-title {
+  font-family: PT Serif;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.about-boldtext-container {
+    margin-top: 2rem;
+}
+.about-text-container {
+    margin-top: 2rem;
+}
+.about-boldtext {
+  font-family: Work Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.about-text {
+  font-family: Work Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 2rem;
+}
+.about-girl {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
