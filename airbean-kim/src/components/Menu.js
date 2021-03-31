@@ -1,57 +1,15 @@
+import MenuList from './MenuList';
+import useFetch from '../useFetch'
+
 const Menu = () => {
-    return ( 
-        <div>
-            <h1>Meny</h1>
-  <div>
-      <img width="30px" height="30px" src="../svg/add.svg" alt="add" />
-    
-    <h3>Bryggkaffe</h3>
-    <hr/>
-    <p>Bryggd på månadens bönor</p>
-    <h3>49kr</h3>
-  </div>
-  <div>
-      <img width="30px" height="30px" src="../svg/add.svg" alt="add" />
-    
-    <h3>Caffè Doppio</h3>
-    <hr/>
-    <p>Bryggd på månadens bönor</p>
-    <h3>49kr</h3>
-  </div>
-  <div>
-      <img width="30px" height="30px" src="../svg/add.svg" alt="add" />
-    
-    <h3>Cappuccino</h3>
-    <hr/>
-    <p>Bryggd på månadens bönor</p>
-    <h3>49kr</h3>
-  </div>
-  <div>
-      <img width="30px" height="30px" src="../svg/add.svg" alt="add" />
-    
-    <h3>Latte Macchiato</h3>
-    <hr/>
-    <p>Bryggd på månadens bönor</p>
-    <h3>49kr</h3>
-  </div>
-  <div>
-      <img width="30px" height="30px" src="../svg/add.svg" alt="add" />
-    
-    <h3>Kaffe Latte</h3>
-    <hr/>
-    <p>Bryggd på månadens bönor</p>
-    <h3>49kr</h3>
-  </div>
-  <div>
-      <img width="30px" height="30px" src="../svg/add.svg" alt="add" />
-    
-    <h3>Cortado</h3>
-    <hr/>
-    <p>Bryggd på månadens bönor</p>
-    <h3>39kr</h3>
-  </div>
-            </div>
-     );
+  const { data: drinks } = useFetch('http://localhost:8005/drinks')
+
+  return (
+    // Här kör vi en en (Logical AND) som kollar om events är sant då renderar den ut EvenList, annars om det är falskt händer ingeting.
+    <div>
+      { drinks && <MenuList drinks={drinks} />}
+    </div>
+  );
 }
 
-export default Menu; 
+export default Menu;
