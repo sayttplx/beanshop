@@ -11,6 +11,7 @@ import "./styles/status.css"
 import './styles/about.css'
 import './styles/navbar.css'
 import './styles/landing.css'
+import './styles/menu.css'
 
 function App() {
   return (

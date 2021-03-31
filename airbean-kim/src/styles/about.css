@@ -12,7 +12,6 @@
     background-position: top center;
     background-repeat: no-repeat;
     background-size: 100%;
-    margin-top: 113px;
   }
 .about {
   background-color: #f3e4e1;
@@ -56,7 +55,7 @@
   margin-top: 2rem;
 }
 .about-girl {
-  height: 50vh;
+  height: 36vh;
   display: flex;
   align-items: center;
   justify-content: center;

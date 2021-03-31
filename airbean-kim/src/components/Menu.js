@@ -1,12 +1,56 @@
 const Menu = () => {
     return ( 
         <div>
-        <h1>MENY</h1>
-        <p>Bryggkaffe</p>
-        <p>Caffè Doppio</p>
-        <p>Cappuccino</p>
-        <p>Latte Macchiato</p>
-        </div>
+            <h1>Meny</h1>
+  <div>
+      <img width="30px" height="30px" src="../svg/add.svg" alt />
+    
+    <h3>Bryggkaffe</h3>
+    <hr/>
+    <p>Bryggd på månadens bönor</p>
+    <h3>49kr</h3>
+  </div>
+  <div>
+      <img width="30px" height="30px" src="../svg/add.svg" alt />
+    
+    <h3>Caffè Doppio</h3>
+    <hr/>
+    <p>Bryggd på månadens bönor</p>
+    <h3>49kr</h3>
+  </div>
+  <div>
+      <img width="30px" height="30px" src="../svg/add.svg" alt />
+    
+    <h3>Cappuccino</h3>
+    <hr/>
+    <p>Bryggd på månadens bönor</p>
+    <h3>49kr</h3>
+  </div>
+  <div>
+      <img width="30px" height="30px" src="../svg/add.svg" alt />
+    
+    <h3>Latte Macchiato</h3>
+    <hr/>
+    <p>Bryggd på månadens bönor</p>
+    <h3>49kr</h3>
+  </div>
+  <div>
+      <img width="30px" height="30px" src="../svg/add.svg" alt />
+    
+    <h3>Kaffe Latte</h3>
+    <hr/>
+    <p>Bryggd på månadens bönor</p>
+    <h3>49kr</h3>
+  </div>
+  <div>
+      <img width="30px" height="30px" src="../svg/add.svg" alt />
+    
+    <h3>Cortado</h3>
+    <hr/>
+    <p>Bryggd på månadens bönor</p>
+    <h3>39kr</h3>
+  </div>
+            </div>
      );
 }
 
