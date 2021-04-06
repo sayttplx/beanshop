@@ -7,3 +7,41 @@
 body {
     background: #f4f4f4;
 }
+
+.no-order {
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 30vh;
+}
+
+
+
+.cart-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.h2-cart {
+font-size: 20px;
+}
+
+
+.p-cart {
+font-size: 12px;
+}
+
+.status {
+    display: flex;
+    justify-content: center;
+}
+
+.total-h1 {
+    padding-top: 5vh
+}
+
+.cart-h1 {
+    padding-top: 5rem;
+}

@@ -36,6 +36,8 @@ const Cart = () => {
         <div>
             <Hamburger/>
             <Bag/>
+            <h1 className="cart-h1">Din beställning</h1>
+            <div className="cart-container">
             {formattedCart.map(item => 
                 <CartItem
                     key={item.product}
@@ -44,11 +46,14 @@ const Cart = () => {
                     quantity={item.quantity}
                     id={item.product} />
             )}
-            <h1>Total: {total} kr</h1>
-
-            <Link to="/status">
-                <button onClick={() => dispatch(placeOrder(cart))}>Take my money!</button>
+            </div>
+            
+            <h1 className="total-h1">Total: {total} kr</h1>
+                <div className="status">
+            <Link  to="/status">
+                <button  onClick={() => dispatch(placeOrder(cart))}>Take my money!</button>
             </Link>
+            </div>
         </div>
     );
 }

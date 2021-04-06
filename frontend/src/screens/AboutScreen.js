@@ -5,9 +5,6 @@ import Bag from '../components/Bag';
 
 const About = () => {
 
-
-
-    
     return (
     <div className="about">
         

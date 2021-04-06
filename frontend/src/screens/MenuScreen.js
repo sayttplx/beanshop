@@ -6,10 +6,6 @@ import Product from '../components/Product'
 import Hamburger from '../components/Hamburger'
 import Bag from '../components/Bag';
 
-
-
-
-
 const MenuScreen = () => {
 
     const dispatch = useDispatch();
