@@ -1,7 +1,7 @@
 # examination-js2-sayttplx
 
-/root & /frontend - npm install  
+kör npm install i root & frontend 
 
-/root npm run dev
+sen starta upp med npm run dev i rooten
 
 
