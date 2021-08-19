@@ -19,8 +19,8 @@ export const addToCart = (id) => async (dispatch, getState) => {
     },
   });
 
-// getState checks the updated store state after dispatching
-// Sets the value of the storage object item
+  // getState checks the updated store state after dispatching
+  // Sets the value of the storage object item
   localStorage.setItem("cart", JSON.stringify(getState().cart.cartItems));
 };
 

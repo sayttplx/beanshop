@@ -16,11 +16,11 @@ export const cartReducer = (state = CART_INITIAL_STATE, action) => {
     case actionTypes.REMOVE_FROM_CART:
       // Find index of first instance of id in cart
       const foundIndex = state.cartItems
-        .map(({id}) => id)
+        .map(({ id }) => id)
         .findIndex(id => id === action.paylod)
-      
-      if(foundIndex === -1) return state
-      
+
+      if (foundIndex === -1) return state
+
       // Remove first instance of product from cart
       const newCart = state.cartItems
         .slice(0, foundIndex)
